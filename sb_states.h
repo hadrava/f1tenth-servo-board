@@ -1,0 +1,21 @@
+#ifndef _SB_STATES_H_
+#define _SB_STATES_H_
+
+#define SB_MASK			0xF0
+
+#define SB_BOOT			0x00
+#define SB_REMOTE_ONLY		0x10
+#define SB_REMOTE_STATE_DEMO	0x20
+#define SB_SERIAL_ONLY		0x30
+
+#define SB_TAKEOVER_WITH_TRIM	0x40
+#define SB_TAKEOVER		0x50
+#define SB_SPEED_LIMIT		0x60
+#define SB_PAUSE		0x70
+
+
+//#define SB_DEFAULT_STATE	SB_REMOTE_STATE_DEMO
+#define SB_DEFAULT_STATE	SB_REMOTE_ONLY
+
+
+#endif
